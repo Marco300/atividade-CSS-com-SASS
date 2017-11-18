@@ -1,0 +1,12 @@
+
+.navbar-brand {
+  @include fontBrand($brand-font-family,$brand-font-size, $brand-font-color);	
+  float: left;
+  margin-left:30px;
+  padding-top: 2px;
+  
+  
+}
+.navbar a{
+	 text-decoration: none;
+}

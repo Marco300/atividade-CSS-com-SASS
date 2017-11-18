@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Passion+One|Rajdhani");
+/*            Navbar                             */
+.navbar-brand {
+  font-family: "Passion One", cursive;
+  font-size: 45px;
+  color: #800000;
+  float: left;
+  margin-left: 30px;
+  padding-top: 2px; }
+
+.navbar a {
+  text-decoration: none; }
+
+.navbar {
+  width: 50%;
+  height: 50px;
+  border-width: thin;
+  border-color: #000;
+  border-style: solid;
+  background-color: transparent; }
+
+.navbar ul {
+  display: inline;
+  float: right;
+  margin-right: 25px;
+  margin-top: 10px; }
+
+.navbar ul li {
+  display: inline;
+  padding: 25px; }
+
+.navbar ul li a {
+  text-decoration: none;
+  font-family: "Rajdhani", serifa;
+  font-size: 25px;
+  color: #800000; }
+  .navbar ul li a:hover {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold; }
+
+body {
+  background: #3E5151;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #DECBA4, #3E5151);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #DECBA4, #3E5151);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }

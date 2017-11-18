@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One|Rajdhani');
+@import "mixins.scss";
+@import "placeholders.scss";
+
+// temas Disponiveis: "tema1.scss", "tema2.scss", "tema3.scss"
+@import "tema3.scss";
+@import "navbar/navbar.scss";
+@import "navbar/body.scss";

@@ -1,0 +1,33 @@
+
+.navbar{
+	width: 50%;
+	height: 50px;
+	border-width: thin;
+	border-color: #000; 
+	border-style: solid;  
+  background-color: transparent; 
+}
+
+.navbar ul{  
+  display: inline;
+  float: right;
+  margin-right: 25px;  
+  margin-top:10px;
+
+}
+
+.navbar ul li { 
+  display: inline;
+  padding: 25px;
+  
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  @include fontLinks($font-family, $font-size, $font-color)
+    &:hover {
+      background-color: $corFundoHover;
+      color:$corFonteHover;
+      font-weight: bold;
+  }
+}
